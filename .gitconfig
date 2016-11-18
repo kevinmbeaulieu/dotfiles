@@ -1,0 +1,12 @@
+[alias]
+    append = "!f(){ git log --oneline -2 && echo && git add --all && git commit --amend --no-edit; };f"
+    short = log --oneline -2
+    medium = log --oneline -5
+    med = log --oneline -5
+    long = log --oneline -10
+    last = log -1
+    pop = reset head^
+    ls = "!f(){ git show $1 | grep 'diff --git' | grep -oE '/.*?\\.[a-z]*' | uniq; };f"
+    new = "!f(){ git add --all && git commit -m $1; }; f"
+[core]
+    editor = /usr/bin/vim

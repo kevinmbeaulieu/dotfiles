@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/kevinmbeaulieu/Desktop/.metadata'
+let g:netrw_dirhist_2='/var/log/letsencrypt'
+let g:netrw_dirhist_3='/Users/kevinmbeaulieu/dotfiles'
+let g:netrw_dirhist_4='/Users/kevinmbeaulieu/.oh-my-zsh/custom/plugins/google-browser'
