@@ -8,5 +8,6 @@
     pop = reset head^
     ls = "!f(){ git show $1 | grep 'diff --git' | grep -oE '/.*?\\.[a-z]*' | uniq; };f"
     new = "!f(){ git add --all && git commit -m $1; }; f"
+    cp = cherry-pick
 [core]
     editor = /usr/bin/vim
