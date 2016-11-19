@@ -5,4 +5,4 @@ cp .vimrc $HOME
 if [ -z "$ZSH_CUSTOM" ]; then
     ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
 fi
-cp -r plugins $ZSH_CUSTOM/plugins
+cp -R plugins $ZSH_CUSTOM/plugins
