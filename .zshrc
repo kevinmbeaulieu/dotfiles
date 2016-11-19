@@ -83,6 +83,21 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" \
     && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
+# -------------------------
+# -       FUNCTIONS       -
+# -------------------------
+
+# Empty downloads folder
+function empty-downloads() {
+    mv $HOME/Downloads/* $HOME/.Trash
+}
+
+# Make directory then cd into it
+function mkd() {
+    mkdir -p "$@" && cd "$_"
+}
+
+
 # --------------------------
 # -  KEY BINDINGS/ALIASES  -
 # --------------------------
@@ -98,10 +113,6 @@ alias l='ls -CF' # default
 alias ls='ls -CF' # default
 alias la='ls -AF' # show hidden files
 alias ll='ls -AlF' # show hidden files, long format
-
-# --- empty downloads folder ---
-alias empty-downloads="mv $HOME/Downloads/* $HOME/.Trash"
-alias downloads-empty="mv $HOME/Downloads/* $HOME/.Trash"
 
 # --- todoist ---
 alias todo='todoist-cli items' # cfdrake/todoist-cli
