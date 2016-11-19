@@ -103,6 +103,9 @@ alias ll='ls -AlF' # show hidden files, long format
 alias empty-downloads="mv $HOME/Downloads/* $HOME/.Trash"
 alias downloads-empty="mv $HOME/Downloads/* $HOME/.Trash"
 
+# --- todoist ---
+alias todo='todoist-cli items' # cfdrake/todoist-cli
+
 # --- homebrew  packages ---
 alias gs='git status' # git
 alias g='googler --colors ACegxy --count 8' # googler
