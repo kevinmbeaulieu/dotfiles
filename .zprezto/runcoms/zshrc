@@ -10,14 +10,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Source custom commands
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/fuzzy-open-file/init.zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/google-browser/init.zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/open-app-or-website/init.zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/osx-system-preferences/init.zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/quit/init.zsh"
-source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/wolfram-alpha/init.zsh"
-
 # Empty downloads folder
 function empty-downloads() {
     mv $HOME/Downloads/* $HOME/.Trash
