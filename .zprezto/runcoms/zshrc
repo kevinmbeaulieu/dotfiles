@@ -1,0 +1,68 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Source custom commands
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/fuzzy-open-file/init.zsh"
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/google-browser/init.zsh"
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/open-app-or-website/init.zsh"
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/osx-system-preferences/init.zsh"
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/quit/init.zsh"
+source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/custom/wolfram-alpha/init.zsh"
+
+# Empty downloads folder
+function empty-downloads() {
+    mv $HOME/Downloads/* $HOME/.Trash
+}
+
+# Make directory then cd into it
+function mkd() {
+    mkdir -p "$@" && cd "$_"
+}
+
+# --- clear ---
+alias c='clear'
+
+# --- killall typos ---
+alias kilall='killall'
+
+# --- ls ---
+alias l='ls -cf' # default
+alias ls='ls -cf' # default
+alias la='ls -af' # show hidden files
+alias ll='ls -alf' # show hidden files, long format
+
+# --- todoist ---
+alias todo='todoist-cli items' # cfdrake/todoist-cli
+
+# --- homebrew  packages ---
+alias gs='git status' # git
+alias g='googler --colors acegxy --count 8' # googler
+eval $(thefuck --alias please) # thefuck
+eval $(thefuck --alias fuck) # thefuck
+alias empty-trash='trash -e' # trash
+alias trash-empty='trash -e' # trash
+
+# --- zsh built-in autocompletion ---
+if [[ "${terminfo[kcbt]}" != "" ]]; then
+    bindkey "${terminfo[kcbt]}" menu-complete # [shift-tab]
+fi
+
+# --- zsh plugins ---
+alias q='quick-look' # osx
+alias ql='quick-look' # osx
+bindkey "^i" autosuggest-accept # zsh-autosuggestions [tab]
+
+# --- custom zsh plugins ---
+alias fof='fuzzy-open-file'
+alias gui='google-browser'
+alias o='open-app-or-website'
+
