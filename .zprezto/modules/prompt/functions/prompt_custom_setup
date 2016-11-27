@@ -22,7 +22,7 @@ function +vi-git_precmd {
 
 function prompt_giddie_precmd {
   # Current directory
-  _prompt_giddie_pwd="${PWD/#$HOME/~}"
+  _prompt_giddie_pwd="%c"
   vcs_info
 }
 
