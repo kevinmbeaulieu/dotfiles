@@ -32,6 +32,7 @@ zstyle ':prezto:load' pmodule \
     'autosuggestions' \
     'command-not-found' \
     'syntax-highlighting' \
+    'custom/fuzzy-open-directory' \
     'custom/fuzzy-open-file' \
     'custom/google-browser' \
     'custom/open-app-or-website' \

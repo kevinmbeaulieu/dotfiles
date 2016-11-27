@@ -54,6 +54,7 @@ alias ql='quick-look' # osx
 bindkey "^i" autosuggest-accept # zsh-autosuggestions [tab]
 
 # --- custom zsh plugins ---
+alias fod='fuzzy-open-directory'
 alias fof='fuzzy-open-file'
 alias gui='google-browser'
 alias o='open-app-or-website'
