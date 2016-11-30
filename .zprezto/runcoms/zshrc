@@ -26,6 +26,10 @@ alias c='clear'
 # --- killall typos ---
 alias kilall='killall'
 
+# --- lock/unlock file ---
+alias lock='chflags uchg'
+alias unlock='chflags nouchg'
+
 # --- ls ---
 alias l='ls -cf' # default
 alias ls='ls -cf' # default
