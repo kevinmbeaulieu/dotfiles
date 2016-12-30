@@ -31,7 +31,7 @@
 	<key>CopyLastNewline</key>
 	<false/>
 	<key>CopySelection</key>
-	<false/>
+	<true/>
 	<key>Default Bookmark Guid</key>
 	<string>8D910D0C-52BF-4885-B0C4-83E46E6D43BF</string>
 	<key>DimBackgroundWindows</key>
@@ -316,11 +316,11 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>268 342 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>338 122 918 512 0 0 1280 800 </string>
+	<string>336 232 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
-	<string>80 216 592 584 0 0 1280 800 </string>
+	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 70 1280 719 0 0 1280 800 </string>
+	<string>0 73 1280 704 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_F0DE21E0-15B3-48F9-BA19-7112ED5F08FC</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1202,7 +1202,7 @@
 			<key>Automatically Log</key>
 			<false/>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -4206,7 +4206,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-12-02T17:51:11Z</date>
+	<date>2016-12-28T00:56:33Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -4236,7 +4236,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1478531712</real>
+	<real>1481598976</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -4260,7 +4260,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.12</string>
+	<string>3.0.13</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

@@ -39,6 +39,9 @@ alias ll='ls -alf' # show hidden files, long format
 # --- todoist ---
 alias todo='todoist-cli items' # cfdrake/todoist-cli
 
+# --- xcode ---
+alias xcode='open *.xcodeproj' # open xcode project in current directory
+
 # --- homebrew  packages ---
 alias gs='git status' # git
 alias g='googler --colors acegxy --count 8' # googler
