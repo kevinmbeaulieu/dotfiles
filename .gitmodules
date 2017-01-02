@@ -1,0 +1,3 @@
+[submodule ".zprezto/modules/custom/fuzzy-open-directory"]
+	path = .zprezto/modules/custom/fuzzy-open-directory
+	url = https://github.com/kevinmbeaulieu/fuzzy-open-directory
