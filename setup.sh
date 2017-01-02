@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+git submodule update --init --recursive
+
 cp .gitconfig $HOME
 cp .vimrc $HOME
 rsync -rv --exclude=.DS_Store --exclude='.git*' .zprezto $HOME
