@@ -4,6 +4,7 @@ sudo chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
 sudo nvram SystemAudioVolume=" "
 sudo systemsetup -setrestartfreeze on
+defaults write com.apple.DiskUtility DUShowEveryPartition -bool true
 defaults write com.apple.dock autohide -bool false
 defaults write com.apple.dock autohide-delay -int 0
 defaults write com.apple.dock expose-animation-duration -float 0.1
@@ -13,6 +14,7 @@ defaults write com.apple.dock magnification -int 1
 defaults write com.apple.dock mineffect -string "genie"
 defaults write com.apple.dock minimize-to-application -bool false
 defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock scroll-to-open -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad DragLock -bool false
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool false
@@ -39,6 +41,7 @@ defaults write com.apple.finder NewWindowTargetPath -string "file:///Application
 defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write com.apple.finder ShowStatusBar -bool false
 defaults write com.apple.LaunchServices LSQuarantine -bool false
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool false
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 defaults write com.apple.screensaver askForPassword -bool true
 defaults write com.apple.screensaver askForPasswordDelay -int 0
@@ -57,6 +60,8 @@ defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool true
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain NSCloseAlwaysConfirmsChanges -bool false
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 defaults write NSGlobalDomain NSPersonNameDefaultDisplayNameOrder -int 0
 defaults write NSGlobalDomain NSPersonNameDefaultShortNameFormat -int 0
 defaults write NSGlobalDomain NSPersonNameDefaultShouldPreferNicknamesPreference -int 0
