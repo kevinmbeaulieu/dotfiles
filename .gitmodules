@@ -4,3 +4,9 @@
 [submodule ".zprezto/modules/custom/fuzzy-open-file"]
 	path = .zprezto/modules/custom/fuzzy-open-file
 	url = https://github.com/kevinmbeaulieu/fuzzy-open-file
+[submodule ".zprezto/modules/custom/wolfram-alpha"]
+	path = .zprezto/modules/custom/fuzzy-open-file
+	url = https://github.com/kevinmbeaulieu/fuzzy-open-file
+[submodule ".zprezto/modules/custom/wolfram-alpha-cli"]
+	path = .zprezto/modules/custom/wolfram-alpha-cli
+	url = https://github.com/kevinmbeaulieu/wolfram-alpha-cli.git
