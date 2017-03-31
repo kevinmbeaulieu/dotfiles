@@ -2,7 +2,39 @@
 
 git submodule update --init --recursive
 
-brew install git googler hub m-cli thefuck trash wget
+brew install \
+    git \
+    googler \
+    hub \
+    m-cli \
+    thefuck \
+    trash \
+    wget
+
+brew tap caskroom/cask
+brew cask install \
+    android-studio \
+    atom \
+    avast-mac-security \
+    betterzipql \
+    cdock \
+    disk-inventory-x \
+    displaperture \
+    firefox \
+    google-chrome \
+    google-drive \
+    keepingyouawake \
+    pixelstick \
+    polymail \
+    purevpn \
+    qlcolorcode \
+    qlimagesize \
+    qlstephen \
+    qlvideo \
+    rocket \
+    slack \
+    texshop \
+    virtualbox
 
 cp .gitconfig $HOME
 cp .vimrc $HOME
