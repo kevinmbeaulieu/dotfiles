@@ -11,6 +11,8 @@ brew install \
     trash \
     wget
 
+brew tap homebrew/command-not-found
+
 brew tap caskroom/cask
 brew cask install \
     android-studio \
