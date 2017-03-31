@@ -35,6 +35,7 @@ zstyle ':prezto:load' pmodule \
     'custom/fuzzy-open-directory' \
     'custom/fuzzy-open-file' \
     'custom/google-browser' \
+    'custom/grepim' \
     'custom/notify' \
     'custom/open-app-or-website' \
     'custom/osx-system-preferences' \
