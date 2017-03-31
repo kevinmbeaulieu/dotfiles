@@ -2,6 +2,8 @@
 
 git submodule update --init --recursive
 
+brew install git googler hub m-cli thefuck trash wget
+
 cp .gitconfig $HOME
 cp .vimrc $HOME
 rsync -rv --exclude=.DS_Store --exclude='.git*' .zprezto $HOME
