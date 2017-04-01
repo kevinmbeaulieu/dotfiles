@@ -47,7 +47,6 @@ eval $(thefuck --alias please) # thefuck
 eval $(thefuck --alias fuck) # thefuck
 alias empty-trash='trash -e' # trash
 alias trash-empty='trash -e' # trash
-if brew command command-not-found-init > /dev/null 2>&1; then eval "$(brew command-not-found-init)"; fi
 
 
 # --- zsh built-in autocompletion ---

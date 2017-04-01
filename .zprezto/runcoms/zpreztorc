@@ -30,7 +30,6 @@ zstyle ':prezto:load' pmodule \
     'completion' \
     'prompt' \
     'autosuggestions' \
-    'command-not-found' \
     'syntax-highlighting' \
     'custom/fuzzy-open-directory' \
     'custom/fuzzy-open-file' \
