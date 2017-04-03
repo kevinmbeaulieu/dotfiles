@@ -25,6 +25,7 @@ brew cask install \
     firefox \
     google-chrome \
     google-drive \
+    iterm2 \
     keepingyouawake \
     pixelstick \
     polymail \
