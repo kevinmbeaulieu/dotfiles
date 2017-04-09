@@ -41,6 +41,7 @@ brew cask install \
 
 cp .gitconfig $HOME
 cp .vimrc $HOME
+cp .hyper.js $HOME
 rsync -rv --exclude=.DS_Store --exclude='.git*' .zprezto $HOME
 
 setopt EXTENDED_GLOB

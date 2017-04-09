@@ -148,8 +148,8 @@ augroup JumpCursorOnEdit
 augroup END
 
 " Highlight current line
-set cul
-hi CursorLine term=none cterm=none ctermbg=117
+"set cul
+"hi CursorLine term=none cterm=none ctermbg=117
 
 " Indenting
 nnoremap <Tab> >>
