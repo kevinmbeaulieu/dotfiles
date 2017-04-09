@@ -20,6 +20,9 @@ function mkd() {
     mkdir -p "$@" && cd "$_"
 }
 
+# Initialize rbenv
+eval "$(rbenv init -)"
+
 # --- clear ---
 alias c='clear'
 
@@ -37,7 +40,7 @@ alias la='ls -af' # show hidden files
 alias ll='ls -alf' # show hidden files, long format
 
 # --- xcode ---
-alias xcode='open *.xcodeproj' # open xcode project in current directory
+alias xcode='open *.xcworkspace || open *.xcodeproj' # open xcode project in current directory
 
 # --- homebrew  packages ---
 alias gs='git status' # git

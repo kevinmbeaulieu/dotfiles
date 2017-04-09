@@ -101,6 +101,10 @@ highlight SignColumn ctermbg=234
 " Comment line
 nnoremap <Leader>c 0i//<Esc>j
 nnoremap <Leader>v 0xxj
+nnoremap <Leader># 0i#<Esc>j
+nnoremap <Leader>## 0xj
+nnoremap <Leader>3 0i#<Esc>j
+nnoremap <Leader>33 0xj
 
 " Comment blocks (multiple languages)
 vnoremap // :s#^#\/\/#<Return>:noh<Return>

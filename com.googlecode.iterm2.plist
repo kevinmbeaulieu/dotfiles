@@ -42,6 +42,8 @@
 	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DisableWindowSizeSnap</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
@@ -300,9 +302,9 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 173 1018 447 0 0 1280 777 </string>
+	<string>267 373 918 381 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 94 1274 683 0 0 1280 777 </string>
+	<string>0 79 1280 698 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_8D910D0C-52BF-4885-B0C4-83E46E6D43BF</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_8D910D0C-52BF-4885-B0C4-83E46E6D43BF_selection</key>
@@ -347,12 +349,16 @@
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.038471933454275131</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.70992136001586914</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.65561997890472412</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
@@ -401,12 +407,16 @@
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.030064865946769714</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.32823312282562256</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.32772144675254822</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -1070,6 +1080,8 @@
 			<true/>
 			<key>Use Italic Font</key>
 			<true/>
+			<key>Use Non-ASCII Font</key>
+			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
@@ -4117,16 +4129,28 @@
 			<string>/Users/kevinmbeaulieu</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>55193065-0C69-4679-ACCB-83A90771438F</string>
+	<key>NoSyncLastTipTime</key>
+	<real>513195167.73580402</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>512920592.306817</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -4172,7 +4196,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-03T13:57:03Z</date>
+	<date>2017-04-06T04:15:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>

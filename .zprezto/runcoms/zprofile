@@ -81,3 +81,6 @@ LSCOLORS=exfxcxdxbxegedabagacad
 # Set gopath
 export GOPATH=~/go
 export PATH=$PATH:$GOPATH/bin
+
+# Add OpenSSL to path
+export PATH=$PATH:/usr/local/opt/openssl/bin
