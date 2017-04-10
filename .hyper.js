@@ -90,7 +90,7 @@ module.exports = {
     bell: false,
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false,
+    copyOnSelect: true,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -106,11 +106,6 @@ module.exports = {
         borderWidth: '2px'
     },
 
-    visor: {
-        hotkey: 'Command+Option+Space',
-        position: 'left',
-    },
-
   },
 
   // a list of plugins to fetch and install from npm
@@ -121,12 +116,10 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
       'hypercwd',
-      'hyperterm-visor',
       'hyperlinks',
       'hyperterm-safepaste',
       'hyperborder',
 
-//      'hyperterm-monokai',
       'hyper-atom-dark-transparent',
   ],
 
